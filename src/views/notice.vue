@@ -1,9 +1,8 @@
 <template>
-<div>
+<div style="height: 100%">
   <el-container style="height: 100%">
-    <el-aside width="auto">
+    <el-aside width="auto" style="height: 100%">
       <common-aside>
-
       </common-aside>
     </el-aside>
     <el-container>
@@ -17,7 +16,7 @@
 <script>
 import CommonAside  from "@/components/CommonAside";
 export default {
-  name:'HomeCom',
+  name:'MyNotice',
   components:{
     CommonAside,
   },
