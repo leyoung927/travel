@@ -12,7 +12,7 @@
         </common-header>
       </el-header>
       <el-main>
-
+        这是notice
       </el-main>
     </el-container>
   </el-container>

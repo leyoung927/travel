@@ -6,9 +6,11 @@
     <h3>
       你说了算！！
     </h3>
-    <el-menu-item v-for="item in noChildren" index="item.path" :key="item.path">
+    <el-menu-item v-for="item in noChildren" :index="item.path" :key="item.path">
       <i :class="'el-icon-' + item.icon"></i>
-      <span slot="title">{{ item.label }}</span>
+      <span slot="title" >
+       {{ item.label }}
+      </span>
     </el-menu-item>
   </el-menu>
 
