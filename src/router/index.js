@@ -10,7 +10,7 @@ Vue.use(VueRouter)
 
 const routes = [
     {
-        path:'/notice',
+        path:'/',
         name:'notice',
         component:notice
     },{
@@ -22,7 +22,7 @@ const routes = [
         name:'site',
         component:site
     },{
-        path:'/',
+        path:'/user',
         name:'user',
         component:user
     }

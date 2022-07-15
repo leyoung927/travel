@@ -12,7 +12,13 @@
           </common-header>
         </el-header>
         <el-main>
+          <el-row class="home" :gutter="24">
+            <el-col :span="24">
+              <el-card>
 
+              </el-card>
+            </el-col>
+          </el-row>
         </el-main>
       </el-container>
     </el-container>
@@ -32,5 +38,7 @@ export default {
 </script>
 
 <style scoped>
-
+.el-header{
+  background-color:#333;
+}
 </style>
